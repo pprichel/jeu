@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>country skills</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="game-title">
+  <h1>Country Skills</h1>
+    </div>
+    <div class="game">
+              <div class="game-container">
+                            <form name="formPays" onsubmit="return resultat()">
+                                   <div class="pays">
+                                          <label for="p1">Entrez du pays</label> <input name="pays1" type="text" id="p1" autocomplete="off">
+                                           <figure><img  src="http://flags.fmcdn.net/data/flags/w580/cg.png" alt="pays1"></figure>
+                                           <p class="check" id="res1" onclick="myFunction1()">Submit</p>
+                                    </div>
+                                    <div class="pays">
+                                           <label for="p2">Entrez du pays</label> <input name="pays2" type="text" id="p2" autocomplete="off">
+                                           <figure><img src="http://eh.lenin.ru/flags/4af/tunisia/tun-fx1.gif" alt="pays1"></figure>
+                                           <p class="check" id="res2" onclick="myFunction2()">Submit</p>
+                                           
+                                    </div>
+                                    <div class="pays">
+                                           <label for="p3">Entrez du pays</label> <input name="pays3" type="text" id="p3" autocomplete="off">
+                                           <figure><img src="https://www.flagsonline.fr/uploads/2016-6-6/420-272/ghana.jpg" alt="pays1"></figure>
+                                           <p class="check" id="res3" onclick="myFunction3()">Submit</p>
+                                    </div>
+                                    <div class="pays">
+                                           <label for="p4">Entrez du pays</label> <input name="pays4" type="text" id="p4" autocomplete="off">
+                                           <figure><img src="https://www.flagsonline.fr/uploads/2016-6-6/420-272/morocco.jpg" alt="pays1"></figure>
+                                           <p class="check" id="res4" onclick="myFunction4()">check</p>
+                                           
+                                    </div>
+                                    <div class="pays">
+                                           <label for="p5">Entrez du pays</label> <input name="pays5" type="text" id="p5" autocomplete="off">
+                                           <figure><img src="https://www.flagsonline.fr/uploads/2016-6-6/420-272/rep-dem-congo.jpg" alt="pays1"></figure>
+                                           <p class="check" id="res5" onclick="myFunction5()">check</p>
+                                           
+                                    </div>
+                                    <div class="pays">
+                                           <label for="p6">Entrez du pays</label> <input name="pays6" type="text" id="p6" autocomplete="off">
+                                           <figure><img src="https://www.larousse.fr/encyclopedie/data/images/1009589-Drapeau_du_S%C3%A9n%C3%A9gal.jpg" alt="pays1"></figure>
+                                           <p class="check" id="res6" onclick="myFunction6()">check</p>
+                                           
+                                    </div>
+                                    <div class="pays">
+                                           <label for="p7">Entrez du pays</label> <input name="pays7" type="text" id="p7" autocomplete="off">
+                                           <figure><img src="https://s-i.huffpost.com/gen/2915654/images/n-DRAPEAU-ALGRIE-628x314.jpg" alt="pays1"></figure>
+                                           <p class="check" id="res7" onclick="myFunction7()">check</p>
+                                           
+                                    </div>
+                                    <div class="pays">
+                                           <label for="p8">Entrez du pays</label> <input name="pays8" type="text" id="p8" autocomplete="off">
+                                           <figure><img src="https://borney.com/1692-large_default/drapeau-gabon.jpg" alt="pays1"></figure>
+                                           <p class="check" id="res8" onclick="myFunction8()">check</p>
+                                           
+                                    </div>
+                                    <div class="pays">
+                                               <label for="p9">Entrez du pays</label> <input name="pays9" type="text" id="p9" autocomplete="off">
+                                               <figure><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1280px-Flag_of_South_Africa.svg.png" alt="pays1"></figure>
+                                               <p class="check" id="res9" onclick="myFunction9()">check</p>
+                                               
+                                    </div>
+                            </form>
+                   
+                       </div>
+
+                     <div class="resu-desc">
+                        <div class="comment">
+                         <h2>Comment jouer ce jeu</h2>
+                         <p>Vous avez les drapeaux des pays representes ici, il souffit d'entrer le nom du pays et de clicker sur <span>check</span></p>
+                     </div>
+                     <div class="resul-field">
+                                   <div id="res-picture" class="cup-picture">       
+                                                 <img id="victoire" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy4bGTESyii6QC3kRmqRKMjHkjnAHeMCprg7Boiwi5F6hqMMOZ">
+                                          </div>
+                                          <div>
+                                            <button  id="score" onclick="myResultat()">Voir SCORE</button>  
+                                          </div>
+                                          <div>
+                                               <h1 id="resultat"></h1>
+                                          </div>
+                                          <div>
+                                                 <button  id="replay" onclick="myReplay()">Replay</button>  
+                                          </div>
+                     </div>
+                     
+                     
+                     </div>
+                     
+                     </div>
+    </div>
+</body>
+</html>

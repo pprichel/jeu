@@ -1,0 +1,105 @@
+body {
+	background-color : #DDDDDD;
+	width : 100%;
+	font-family : sans-serif;
+	padding-left : 20px;
+}
+h1 {
+	background-color: white;
+	color : rgb(60,60,60);
+	padding : 5px;
+	border-radius : 4px;
+	width : 805px;
+    box-shadow : 0px 0px 2px 2px rgba(80,64,64,0.5);
+    text-align: center;
+}
+.game-title{
+    display: flex;
+    justify-content: center;
+}
+.game-container {
+	background-color: white;
+	display : flex;
+	vertical-align: middle;
+    width : 70%;
+    border: 1px solid;
+}
+div.pays {
+	width : 32.5%;	
+	position : relative;
+	text-align : center;
+	height : 240px;
+	display : inline-block;
+	background-color: rgba(255,255,255,0);
+	box-shadow : 0px 0px 6px 2px  rgba(100,255,150,0.8) inset;
+	border-radius : 4px;
+	margin : 2px 2px;
+}
+div.pays figure {
+	margin : auto;	
+	width : 90%;
+	height : 120px;
+	text-align : center;
+}
+div.pays figure img {
+	margin : 5px;
+	height : 93%;
+}
+.game{
+    display: flex;
+    margin: 20px;
+}
+.resu-desc{
+    background-color: white;
+	display : column;
+	vertical-align: middle;
+    width : 30%;
+    border: 1px solid;
+	margin-left: 30px;
+	background-image: url('https://st3.depositphotos.com/3916541/14018/v/1600/depositphotos_140181426-stock-illustration-vector-map-of-africa-with.jpg')
+}
+h2 {
+	background-color: white;
+	color : rgb(60,60,60);
+	padding : 5px;
+	border-radius : 4px;
+	width : 100%;
+    box-shadow : 0px 0px 2px 2px rgba(80,64,64,0.5);
+    text-align: center;
+}
+.check{
+	border: 1px solid white;
+	border-radius: 50px;
+	width: 80px;
+	background-color:red;
+	margin: 20px;
+}
+.cup-picture{
+	height: 300px;
+	width: 100% ;
+	text-align: center;
+	margin-top:50px;
+}
+.comment{
+	background-color: white;
+	color : rgb(60,60,60);
+	padding : 5px;
+	border-radius : 4px;
+	width : 100%;
+    box-shadow : 0px 0px 2px 2px rgba(80,64,64,0.5);
+    text-align: center;
+}
+.resul-field{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.resul-field h1{
+	background-color: white;
+	color : rgb(60,60,60);
+	padding : 5px;
+	border-radius : 4px;
+	width : 100%;
+    box-shadow : 0px 0px 2px 2px rgba(80,64,64,0.5);
+    text-align: center;
+}
